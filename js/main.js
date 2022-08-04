@@ -7,7 +7,7 @@ new fullpage('#fullpage', {
 	anchors: ['sec1', 'sec2', 'sec3', 'sec4', 'sec5'],
 	navigation: true,
 	navigationPosition: 'left',
-	navigationTooltips: ['firstSlide', 'secondSlide'],
+	
 
 	//섹션 배경색, 이미지 로드
 	beforeLeave: function(origin, destination, direction, trigger){
