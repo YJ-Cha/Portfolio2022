@@ -231,7 +231,6 @@
 
     .s0Bg {
         width: 100vw;
-        bottom: none;
         height: 0vh;
     }
     #s0.on .s0Bg {
