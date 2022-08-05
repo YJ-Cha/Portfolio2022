@@ -22,26 +22,21 @@ new fullpage('#fullpage', {
 
         //after leaving section 1
         if ($('#s0').hasClass('active')) {
-			console.log('main');
 			$('.sectionBg').addClass('act0');
 			$('#s0').addClass('on');
 		} else if ($('#s1').hasClass('active')) {
-			console.log('1');
 			$('.sectionBg').addClass('act1');
 			$('.contentImg').slideDown();
 			$('.contentImg img').attr({src:'images/con1Img.png'});
 		} else if ($('#s2').hasClass('active')) {
-			console.log('2');
 			$('.sectionBg').addClass('act2');
 			$('.contentImg').slideDown();
 			$('.contentImg img').attr({src:'images/con2Img.png'});
 		} else if ($('#s3').hasClass('active')) {
-			console.log('3');
 			$('.sectionBg').addClass('act3');
 			$('.contentImg').slideDown();
 			$('.contentImg img').attr({src:'images/con3Img.png'});
 		} else if ($('#s4').hasClass('active')) {
-			console.log('4');
 			$('.sectionBg').addClass('act4');
 			$('.contentImg').slideDown();
 			$('.contentImg img').attr({src:'images/con4Img.png'});

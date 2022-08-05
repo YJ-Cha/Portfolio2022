@@ -16,6 +16,7 @@
 }
 body {
     color: #333;
+    word-break: keep-all;
 }
 a {
     color: inherit;
