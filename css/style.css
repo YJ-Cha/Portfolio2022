@@ -413,22 +413,15 @@ header {}
 }
 .sectionBg.act0, .sectionBg.act1,
 .sectionBg.act2, .sectionBg.act3,
-.sectionBg.act4 {
+.sectionBg.act4, .sectionBg.act5,
+.sectionBg.act6, .sectionBg.act7,
+.sectionBg.act8 {
     height: 100vh;
 }
 .sectionBg.act0 {
     background-color: #fff;
 }
 
-.sectionBg.act2 {
-    background-color: rgb(255, 179, 179);
-}
-.sectionBg.act3 {
-    background-color: rgba(102, 205, 170, 0.3);
-}
-.sectionBg.act4 {
-    background-color: rgba(221, 92, 163, 0.3);
-}
 
 .imgWrap {
     position: fixed;
@@ -469,7 +462,9 @@ header {}
 
 .contentImg.act0,
 .contentImg.act1, .contentImg.act2,
-.contentImg.act3, .contentImg.act4 {
+.contentImg.act3, .contentImg.act4,
+.contentImg.act5, .contentImg.act6,
+.contentImg.act7, .contentImg.act8 {
     transition: 0.3s all;
 }
 
@@ -592,18 +587,18 @@ ul.toolList, .contentLink {
 /** 섹션별 수정 **/
 
 #s1 .contentNum {
-    color: #35C5F0;
+    color: #765A3B;
 }
 #s1 .contentTxt h2, #s1 .contentTxt h3 {
-    color: #00a7da;
+    color: #765A3B;
 }
 #s1 .contentLink a {
-    background-color: #35C5F0;
+    background-color: #765A3B;
+}
+.sectionBg.act1 {
+    background-color: #ecdac7;
 }
 
-.sectionBg.act1 {
-    background-color: rgba(53, 197, 240, 0.3);
-}
 
 #s2 .contentNum {
     color: #c83e3b;
@@ -614,23 +609,84 @@ ul.toolList, .contentLink {
 #s2 .contentLink a {
     background-color: #c83e3b;
 }
+.sectionBg.act2 {
+    background-color: rgb(255, 179, 179);
+}
 
 #s3 .contentNum {
-    color: #53a57f;
+    color: #FFC832;
 }
 #s3 .contentTxt h2, #s3 .contentTxt h3 {
-    color: #53a57f;
+    color: #FFC832;
 }
 #s3 .contentLink a {
-    background-color: #53a57f;
+    background-color: #FFC832;
+}
+.sectionBg.act3 {
+    background-color: #ffebb3;
 }
 
 #s4 .contentNum {
-    color: #fa3ca9;
+    color: #333;
 }
 #s4 .contentTxt h2, #s4 .contentTxt h3 {
-    color: #fa3ca9;
+    color: #333;
 }
 #s4 .contentLink a {
+    background-color: #333;
+}
+.sectionBg.act4 {
+    background-color: #ccc;
+}
+
+#s5 .contentNum {
+    color: #007296;
+}
+#s5 .contentTxt h2, #s5 .contentTxt h3 {
+    color: #007296;
+}
+#s5 .contentLink a {
+    background-color: #007296;
+}
+.sectionBg.act5 {
+    background-color: #D0F3FE;
+}
+
+#s6 .contentNum {
+    color: #84328E;
+}
+#s6 .contentTxt h2, #s6 .contentTxt h3 {
+    color: #84328E;
+}
+#s6 .contentLink a {
+    background-color: #84328E;
+}
+.sectionBg.act6 {
+    background-color: #F4EEFA;
+}
+
+#s7 .contentNum {
+    color: #53a57f;
+}
+#s7 .contentTxt h2, #s7 .contentTxt h3 {
+    color: #53a57f;
+}
+#s7 .contentLink a {
+    background-color: #53a57f;
+}
+.sectionBg.act7 {
+    background-color: #bbd4c9;
+}
+
+#s8 .contentNum {
+    color: #fa3ca9;
+}
+#s8 .contentTxt h2, #s8 .contentTxt h3 {
+    color: #fa3ca9;
+}
+#s8 .contentLink a {
     background-color: #fa3ca9;
+}
+.sectionBg.act8 {
+    background-color: rgba(221, 92, 163, 0.3);
 }
